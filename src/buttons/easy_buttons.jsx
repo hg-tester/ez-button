@@ -13,10 +13,12 @@ export default class extends Component {
                     {
                         text: 'Find my Provider',
                         cssClass: 'patient-button',
+                        link: null
                     },
                     {
                         text: 'Healthgrades Patient Account',
-                        cssClass: 'provider-button'
+                        cssClass: 'provider-button',
+                        link: null
                     },
                     {
                         text: 'Patient Experience Survey',
@@ -25,7 +27,8 @@ export default class extends Component {
                     }, 
                     {
                         text: 'Email and Notifications from Healthgrades',
-                        cssClass: 'partner-button'
+                        cssClass: 'partner-button',
+                        link: null
                     }
                 ]
             }, 
@@ -46,7 +49,9 @@ export default class extends Component {
 
     onButtonClick = (buttonIndex) => {  
         if (this.state.currentButton === 'Patient') {
-            this.setState({currentButton: null})
+            setTimeout(() => {
+                this.setState({currentButton: null})
+            }, 1000);
         }
         else {
             this.setState({currentButton: this.state.buttons[buttonIndex].text})
