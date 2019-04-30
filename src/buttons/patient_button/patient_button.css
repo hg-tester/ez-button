@@ -1,0 +1,133 @@
+.admin-button {
+    color: black;
+    background-color: rgb(255, 242, 204);
+    height: 10rem;
+    min-width: 17rem;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 3px solid rgb(214, 182, 86);
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    letter-spacing: 0.015rem;
+    font-weight: 100;
+    font-family: 'MarkOT', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.admin-button:hover {
+    color: black;
+    background-color: rgb(247, 215, 122);
+    border-color: rgb(214, 182, 86);
+}
+
+.partner-button {
+    color: black;
+    background-color: rgb(213, 232, 212);
+    height: 10rem;
+    min-width: 17rem;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 3px solid rgb(130, 179, 102);
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    letter-spacing: 0.015rem;
+    font-weight: 100;
+    font-family: 'MarkOT', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.partner-button:hover {
+    color: black;
+    background-color: rgb(113, 187, 110);
+    border-color: rgb(130, 179, 102);
+}
+
+.patient-button {
+    color: black;
+    background-color: #ffa6a8;
+    border-color: #fd878a;
+    height: 10rem;
+    min-width: 17rem;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 3px solid #fd878a;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    letter-spacing: 0.015rem;
+    font-weight: 100;
+    font-family: 'MarkOT', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.patient-button:hover {
+    color: black;
+    background-color: #ff7275;
+    border-color: #ff7275;
+}
+
+.provider-button {
+    color: black;
+    background-color: rgb(218, 232, 252);
+    border-color: rgb(108, 142, 191);
+    height: 10rem;
+    min-width: 17rem;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 3px solid rgb(108, 142, 191);
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    letter-spacing: 0.015rem;
+    font-weight: 100;
+    font-family: 'MarkOT', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.provider-button:hover {
+    color: black;
+    background-color: rgb(124, 175, 247);
+    border-color: rgb(108, 142, 191);
+}
