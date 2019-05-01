@@ -5,11 +5,11 @@ export default class extends Component {
     render() {
        return (
            <div>
-               <button 
+               <a href={this.props.buttonData.link}><button 
                     className={this.props.buttonData.cssClass}
                     onClick={() => this.props.onButtonClick(this.props.buttonIndex)} >
-                        <a href={this.props.buttonData.link} target='_blank'>{this.props.buttonData.text}</a>
-                </button>
+                        {this.props.buttonData.text}
+                </button></a>
            </div>
        ) 
     }
