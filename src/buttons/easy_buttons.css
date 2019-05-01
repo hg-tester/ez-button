@@ -1,3 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contain2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cms-heading-h2 {
+    text-align: center;
+}
+
 .buttonContainer {
     display: flex;
     flex-direction: row;
@@ -6,9 +30,12 @@
 
 .faq {
     width: 80%;
-    height: 35%;
+    height: 25rem;
     border: 3px double royalblue;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
 }
 
 .contact {
@@ -22,11 +49,6 @@
     box-sizing: border-box;
     border-radius: 50px;
     border: 3px solid rgb(44, 49, 140);
-    padding-top: 0;
-    padding-bottom: 0;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
     cursor: pointer;
     outline: none;
     text-decoration: none;

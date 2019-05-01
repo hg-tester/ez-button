@@ -144,7 +144,7 @@ export default class extends Component {
         }
 
         return(
-            <div>
+            <div className="contain">
                 <div>
                     <h1>{title}</h1>
                     <h3>{subtext}</h3>
@@ -158,7 +158,7 @@ export default class extends Component {
                             onButtonClick={this.onButtonClick}/>
                     })}
                 </div>
-                    {(this.state.currentButton === 'PES FAQ' && <div><div className="faq">{this.genPESHTML()}</div><a href='https://www.healthgrades.com/about/contact-us'><button className='contact'>Didn't Find What You Need? Contact Us!</button></a></div>)}
+                    {(this.state.currentButton === 'PES FAQ' && <div className="contain2"><div className="faq">{this.genPESHTML()}</div><a href='https://www.healthgrades.com/about/contact-us'><button className='contact'>Didn't Find What You Need? Contact Us!</button></a></div>)}
             </div>
         
        )
